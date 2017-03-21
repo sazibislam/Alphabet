@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/White"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/alphabet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="50sp"
+        android:background="@color/colorLightGreen"
+        android:text="@string/text_of_alphabet"
+        android:textColor="@color/Black" />
+    <Button
+        android:id="@+id/math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:background="@color/colorLightGreen"
+        android:text="@string/text_of_math"
+        android:textColor="@color/Black" />
+    <Button
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:background="@color/colorLightGreen"
+        android:text="@string/text_of_picture"
+        android:textColor="@color/Black"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/mina"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>

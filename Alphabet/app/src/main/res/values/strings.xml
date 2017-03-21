@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Alphabet</string>
+    <string name="text_of_alphabet">অক্ষর</string>
+    <string name="text_of_math">অংক</string>
+    <string name="text_of_picture">ছিব</string>
+
+
+    <!--For alphabet -->
+    <string-array name="titles">
+        <item>Facebook</item>
+        <item>Instagram</item>
+        <item>Twitter</item>
+        <item>Google</item>
+        <item>Facebook</item>
+        <item>Instagram</item>
+        <item>Twitter</item>
+        <item>Google</item>
+    </string-array>
+    <string-array name="description">
+        <item>Facebook Description </item>
+        <item>Instagram Description</item>
+        <item>Twitter Descrption</item>
+        <item>Google Description</item>
+        <item>Facebook Description </item>
+        <item>Instagram Description</item>
+        <item>Twitter Descrption</item>
+        <item>Google Description</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>
