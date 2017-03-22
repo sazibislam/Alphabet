@@ -43,6 +43,7 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Main2Activity.this, MainActivity.class));
+                finish();
             }
         });
     }

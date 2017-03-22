@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">Alphabet</string>
     <string name="text_of_alphabet">অক্ষর</string>
-    <string name="text_of_math">অংক</string>
-    <string name="text_of_picture">ছিব</string>
+    <string name="text_of_math">অংক শিখি</string>
+    <string name="text_of_picture">ছবি</string>
 
+    <string name="text_of_next">সামনে</string>
+    <string name="text_of_home">শুরু</string>
+    <string name="text_of_back">পিছনে</string>
 
     <!--For alphabet -->
     <string-array name="titles">
