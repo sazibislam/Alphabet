@@ -5,16 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 public class Alphabet extends AppCompatActivity {
 
-//    String[] itemname = {
-//            "ও",
-//            "Camera",
-//            "Global",
-//            "FireFox",
-//            "UC Browser",
-//            "Android Folder",
-//            "VLC Player",
-//            "Cold War"
-//    };
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +17,5 @@ public class Alphabet extends AppCompatActivity {
 //        Typeface tf = Typeface.createFromAsset(getAssets(),
 //                BANGLA_FONT_SOLEMAN_LIPI);
 //        title.setTypeface(tf);
-
     }
 }

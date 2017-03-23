@@ -9,11 +9,9 @@ import android.widget.Button;
 
 public class Main2Activity extends AppCompatActivity {
 
-    Button btn1;
-    Button btn2;
-    Button btn3;
+    Button btnAlpha, btnMath, btnImageLearning;
 
-    Typeface tf1, tf2, tf3;
+    Typeface tf;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,19 +25,34 @@ public class Main2Activity extends AppCompatActivity {
 //        android.app.ActionBar actionBar = getActionBar();
 //        actionBar.setTitle(s);
 
-        btn1 = (Button) findViewById(R.id.alphabet);
-        btn2 = (Button) findViewById(R.id.math);
-        btn3 = (Button) findViewById(R.id.picture);
+        btnAlpha = (Button) findViewById(R.id.alphabet);
+        btnMath = (Button) findViewById(R.id.math);
+        btnImageLearning = (Button) findViewById(R.id.picture);
 
-        tf1 = Typeface.createFromAsset(getAssets(), "fonts/solaimanlipinormal.ttf");
-        tf2 = Typeface.createFromAsset(getAssets(), "fonts/solaimanlipinormal.ttf");
-        tf3 = Typeface.createFromAsset(getAssets(), "fonts/solaimanlipinormal.ttf");
+        tf = Typeface.createFromAsset(getAssets(), "fonts/solaimanlipinormal.ttf");
 
-        btn1.setTypeface(tf1);
-        btn2.setTypeface(tf2);
-        btn3.setTypeface(tf3);
+        btnImageLearning.setTypeface(tf);
+        btnImageLearning.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Main2Activity.this, PicActivity.class));
+                finish();
+            }
+        });
 
-        btn1.setOnClickListener(new View.OnClickListener() {
+        btnAlpha.setTypeface(tf);
+        btnMath.setTypeface(tf);
+        btnImageLearning.setTypeface(tf);
+
+        btnMath.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Main2Activity.this, QuestionActivity.class));
+                finish();
+            }
+        });
+
+        btnAlpha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Main2Activity.this, MainActivity.class));
